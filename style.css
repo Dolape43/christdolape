@@ -1,0 +1,201 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'century gothic';
+}
+.container-fluid
+{
+	display: flex;
+	justify-content: space-between;
+}
+.sous-container1,.scd-sous-conatainer1
+{
+	background-image: url('../img/2006206.jpg');
+	background-size: cover;
+	width: 30vw;
+	margin-left: -20px;
+	height: 100%;
+	position: fixed;
+
+
+
+}
+.sous-container1 a 
+{
+	color: white;
+	text-decoration: none;
+	color: #2F2;
+	font-size: 20px;
+	line-height: 50px;
+
+
+}
+.sous-container1 ul
+{
+	text-align: center;
+	padding: 30px 70px;
+	list-style: none;
+	
+}
+hr
+{
+	height: 1px;
+	background: red;
+	border: red;
+}
+.sombre h2
+{
+	color: white;
+	text-align: center;
+	font-weight: 500;
+	padding-top: 30px;
+
+}
+.sombre
+{
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 30vw;
+	height: 100vh;
+}
+.sous-container2
+{
+	width: 99%;
+	height: 100vh;
+	padding-left: 32%;
+}
+.footer-sous-conatainer1
+{
+	width: 100%;
+	margin-top: 30%;
+	height: 50px;
+}
+.footer-sous-conatainer1 i 
+{
+	color: white;
+display: inline-block;
+font-size: 30px;
+margin-left: 40px;
+}
+.my-name
+{
+	padding-top: 10%;
+	text-align: center;
+	font-size: 30px;
+}
+.container-section1
+{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;
+}
+.container-section1 img 
+{
+	border-radius: 50%;
+	object-fit: cover;
+	border: 3px solid #4FA4F4;
+}
+.bio
+{
+	padding-top: 8%;
+	padding-left: 2%;
+	line-height: 50px;
+	font-size: 20px;
+	width: 100%;
+}
+
+.dev
+{
+	color: red;
+}
+#section2,#section3,#section4
+{
+	padding-top: 20%;
+}
+#section2 h2,#section3 h2,#section4 h2,#section31 h2
+{
+	text-align: center;
+}
+#section2 img
+{
+	object-fit: cover;
+	width: 100%;
+	height: 350px;
+}
+#section31
+{
+	padding-top: 20%;
+
+}
+#section5
+{
+	background-color: black;
+	padding:10px;
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	line-height: 40px;
+}
+#carouselExampleInterval img
+{
+	padding-top: 30px;
+}
+.button
+{
+	margin-top: 20px;
+}
+.button button 
+{
+	padding: 10px;
+	border: none;
+	background: none;
+	border: 1px solid black;
+}
+.nav-bar,.scd-sous-conatainer1
+{
+	display: none;
+}
+
+@media screen and (max-width:900px)
+{
+	.sous-container1
+	{
+		display: none;
+	}
+	.sous-container2
+	{
+		display: block;
+		width: 100%;
+	}
+.container-section1 img 
+{
+	border-radius: 50%;
+	object-fit: cover;
+	border: 3px solid #4FA4F4;
+	width: 200px;
+	height: 200px;
+}
+.container-section1
+{
+	display: block;
+}
+	.nav-bar
+	{
+		display: block;
+		
+	}
+	.container-fluid
+	{
+		width: 100%;
+	}
+	.my-name
+	{
+		padding-top: 50px;
+	}
+	.navbar navbar-light bg-light fixed-top
+	{
+		width: 50%;
+	}
+
+	
+}
